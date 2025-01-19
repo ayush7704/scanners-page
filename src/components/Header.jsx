@@ -6,7 +6,7 @@ import { globaldata } from './context/context'
 function Header({classes}) {
   const {cardsData} = useContext(globaldata)
   return (
-    <header className={`${classes} bg-white relative z-[10] shadow-[0px_9px_25px_-21px_black] px-5 pt-[0.60rem] pb-1 flex items-center justify-between`}>
+    <header className={`${classes} bg-white relative z-[10] shadow-[0px_9px_25px_-21px_black] px-[12px_16px] pt-[0.30rem] pb-1 flex items-center justify-between`}>
         <div>
          {/* <BlackLogo classes="max-[280px]:w-[9rem] w-[11.875rem] md:w-[13.125rem]"/> */}
          <img src={logo} className="max-[280px]:w-[9rem] w-[11.875rem] md:w-[13.125rem]"/>
