@@ -65,8 +65,8 @@ function card({ steps, children, classes, cardName, subline, num, imgs }) {
           <p className="leading-[normal]">
             <span className="text-[0.82em] font-light">Name: </span>{" "}
             <span className="text-[0.82em] font-normal">
-              Mannu Dhaba and Family Restaurant
-            </span>
+              Mannu Dhaba and Family Restaurant  <span className="text-xs font-light text-gray-600"> (or similar)</span>
+              </span>
           </p>
           <p className="leading-[normal]">
             <span className="text-[0.82em] font-light">Password: </span>{" "}

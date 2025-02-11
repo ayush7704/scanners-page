@@ -2,6 +2,7 @@ import logo from "../assets/logos/207762094.png";
 import instaQR from "../assets/mannudhabInstaQR2.svg";
 import chef from "../assets/chef.png";
 import dhabawebsiteQR from "../assets/MannuDhaba_QR.png";
+import ayushQR from "../assets/scanners/ayushnagar.png";
 
 function footer() {
   return (
@@ -15,7 +16,7 @@ function footer() {
       <footer className="px-4 pt-2 pb-[2px] bg-white relative">
         <div className="grid grid-cols-[1fr_2fr_1fr]">
           <section className="text-[0.7rem]">
-          <div className="flex items-center gap-x-[0.2rem] mb-[2px]">
+            <div className="flex items-center gap-x-[0.2rem] mb-[2px]">
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +71,9 @@ function footer() {
                   </g>
                 </svg>
               </span>
-              <span className="font-normal leading-[normal]">Instagram Username : </span>
+              <span className="font-normal leading-[normal]">
+                Instagram Username :{" "}
+              </span>
               <span className="font-medium leading-[normal]">mannudhaba</span>
             </div>
             <div className="flex items-center gap-x-[0.2rem] mb-1">
@@ -88,11 +91,14 @@ function footer() {
                 </svg>
               </span>
               <span className="font-normal leading-[normal]">Website : </span>
-              <span className="font-medium leading-[normal]">mannudhaba.netlify.app</span>
+              <span className="font-medium leading-[normal]">
+                mannudhaba.netlify.app
+              </span>
             </div>
-            <div className="grid grid-cols-[auto_1fr] gap-x-7 gap-y-[7px] mb-1">
+            <div className="grid grid-cols-[auto_auto_1fr] items-center gap-x-3  gap-y-[7px] mb-1">
               <div className="grid items-center">
-                <svg className="drop-shadow-[0px_0px_5px_black]"
+                <svg
+                  className="drop-shadow-[0px_0px_5px_black]"
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
                   height="32"
@@ -145,6 +151,17 @@ function footer() {
                   </g>
                 </svg>
               </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="25"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="m359.873 121.377l-22.627 22.627l95.997 95.997H16v32.001h417.24l-95.994 95.994l22.627 22.627L494.498 256z"
+                />
+              </svg>
               <div>
                 <img
                   className="w-[3.8rem] h-full object-cover"
@@ -153,7 +170,8 @@ function footer() {
                 />
               </div>
               <div className="grid items-center">
-                <svg className="drop-shadow-[0px_0px_0px_#0000004d]"
+                <svg
+                  className="drop-shadow-[0px_0px_0px_#0000004d]"
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
                   height="32"
@@ -165,6 +183,17 @@ function footer() {
                   />
                 </svg>
               </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="25"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="m359.873 121.377l-22.627 22.627l95.997 95.997H16v32.001h417.24l-95.994 95.994l22.627 22.627L494.498 256z"
+                />
+              </svg>
               <div>
                 <img
                   className="w-[3.8rem] h-full object-cover"
@@ -172,10 +201,34 @@ function footer() {
                   alt="instagram image"
                 />
               </div>
-            </div>           
-            <div className="antaFont whitespace-nowrap">
-              <address className="font-normal inline-block">Design & Developed by</address>
-              <span className='uppercase font-semibold'> ayush nagar</span>
+            </div>
+            <div className="antaFont relative whitespace-nowrap">
+              <div className="absolute right-0 top-[-4rem] w-[3.8rem] h-[3.8rem] object-cover">
+                <img
+                  className="w-full h-full object-cover"
+                  src={ayushQR}
+                  alt="ayushQR"
+                />
+                <svg className="absolute bottom-[-7px] left-[4px] -translate-x-1/2 "
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    d="m12 19.5l-5-5m5 5l5-5m-5 5V13m0-3.5c0-1.667 1-5 5-5"
+                  />
+                </svg>
+              </div>
+              <address className="font-normal inline-block">
+                Design & Developed by
+              </address>
+              <span className="uppercase font-semibold"> ayush nagar</span>
             </div>
           </section>
           <section>
