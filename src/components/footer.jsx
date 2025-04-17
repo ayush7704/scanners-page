@@ -98,7 +98,7 @@ function footer() {
             <div className="grid grid-cols-[auto_auto_1fr] items-center gap-x-3  gap-y-[7px] mb-1">
               <div className="grid items-center">
                 <svg
-                  className="drop-shadow-[0px_0px_5px_black]"
+                  className="drop-shadow-[2px_3px_4px_#000000b0]"
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
                   height="32"
@@ -228,7 +228,7 @@ function footer() {
               <address className="font-normal inline-block">
                 Design & Developed by
               </address>
-              <span className="uppercase font-semibold"> ayush nagar</span>
+              <span className="uppercase font-semibold [textShadow:1px_1px_1px_#00000063]"> ayush nagar</span>
             </div>
           </section>
           <section>
@@ -261,7 +261,7 @@ function footer() {
           </section>
         </div>
         <img
-          className="absolute z-0 drop-shadow-[0px_0px_20px_black] h-full scale-[1.39] right-[3%] top-[-7%]"
+          className="absolute z-0 drop-shadow-[2px_8px_5px_rgba(0,0,0,0.68)] h-full scale-[1.39] right-[3%] top-[-7%]"
           src={chef}
           alt="background image to be come here"
         />
